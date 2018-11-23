@@ -1,0 +1,25 @@
+.WordAnimation {
+    padding: 30px 12.5% 50px;
+    background-color: #faf8f5;//cream
+    font-weight: 900;
+    @media (min-width: 769px) {
+        padding: 130px 10.2% 100px;
+    }
+    &-box {
+        max-width: 560px;
+        font-size: 20px;
+        color: #191919;//almost-black
+        font-family: 'Cardo', serif;
+        font-weight: 100;
+        line-height: 1.5em;
+        letter-spacing: 0.012em;
+        @media (min-width: 769px) {
+            font-size: 30px;
+        }
+    }
+    &-word {
+        display: inline-block;
+        padding-right: .5em;
+        opacity: 0;
+    }
+}
